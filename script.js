@@ -8,16 +8,16 @@ let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
 let songItems =Array.from(document.getElementsByClassName('songItem')); 
 let songs = [
-    {songName:"..ready for it", filePath: "songs/1.mp3", coverPath: "/Users/khushiashta/Desktop/spotify clone/covers/one.png"},
-    {songName:"Gorgeous", filePath: "songs/2.mp3", coverPath: "/Users/khushiashta/Desktop/spotify clone/covers/two.png"},
-    {songName:"Delicate", filePath: "songs/3.mp3", coverPath: "/Users/khushiashta/Desktop/spotify clone/covers/three.png"},
-    {songName:"Dont Blame Me", filePath: "songs/4.mp3", coverPath: "/Users/khushiashta/Desktop/spotify clone/covers/four.png"},
-    {songName:"Look What You Made Me Do", filePath: "songs/5.mp3", coverPath: "/Users/khushiashta/Desktop/spotify clone/covers/five.png"},
-    {songName:"I Did Something Bad", filePath: "songs/6.mp3", coverPath: "/Users/khushiashta/Desktop/spotify clone/covers/six.png"},
-    {songName:"King Of My Heart", filePath: "songs/7.mp3", coverPath: "/Users/khushiashta/Desktop/spotify clone/covers/seven.png"},
-    {songName:"End Game", filePath: "songs/8.mp3", coverPath: "/Users/khushiashta/Desktop/spotify clone/covers/eight.png"},
-    {songName:"Call It What You Want", filePath: "songs/9.mp3", coverPath: "/Users/khushiashta/Desktop/spotify clone/covers/nine.png"},
-    {songName:"New Years Day", filePath: "songs/10.mp3", coverPath: "/Users/khushiashta/Desktop/spotify clone/covers/ten.jpeg"},
+    {songName:"..ready for it", filePath: "songs/1.mp3", coverPath: "covers/one.png"},
+    {songName:"Gorgeous", filePath: "songs/2.mp3", coverPath: "covers/two.png"},
+    {songName:"Delicate", filePath: "songs/3.mp3", coverPath: "covers/three.png"},
+    {songName:"Dont Blame Me", filePath: "songs/4.mp3", coverPath: "covers/four.png"},
+    {songName:"Look What You Made Me Do", filePath: "songs/5.mp3", coverPath: "covers/five.png"},
+    {songName:"I Did Something Bad", filePath: "songs/6.mp3", coverPath: "covers/six.png"},
+    {songName:"King Of My Heart", filePath: "songs/7.mp3", coverPath: "covers/seven.png"},
+    {songName:"End Game", filePath: "songs/8.mp3", coverPath: "covers/eight.png"},
+    {songName:"Call It What You Want", filePath: "songs/9.mp3", coverPath: "covers/nine.png"},
+    {songName:"New Years Day", filePath: "songs/10.mp3", coverPath: "covers/ten.jpeg"},
 ];
 
 songItems.forEach((element, i)=>{ 
